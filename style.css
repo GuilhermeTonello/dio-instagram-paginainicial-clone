@@ -73,3 +73,58 @@ body {
 .profile-photo img {
     height: 6rem;
 }
+
+.btn-login {
+    background: #0095f6;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+}
+
+.btn-login:hover {
+    cursor: pointer;
+}
+
+.btn-login:active {
+    background: #6ec0f7;
+}
+
+.blue-link {
+    color: #0095f6;
+}
+
+.wrong-account {
+    color: rgb(160, 160, 160);
+}
+
+.app-download-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.download {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.app-download-img {
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.app-download-img:nth-child(1) {
+    background-image: url('./img/apple-button.png');
+}
+
+.app-download-img:nth-child(2) {
+    background-image: url('./img/googleplay-button.png');
+}
